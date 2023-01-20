@@ -334,9 +334,9 @@ def df_creator(clcks,reactants,products):
     for p in products:
         mmols_created=round(lim_val*p['stoich'],3)
         if p['transfer type']=='grams/mol':
-            amt=f"{mmols_created/p['transfer info']} mg"
+            amt=f"{mmols_created*p['transfer info']} mg"
         if p['transfer type']=='mol/L':
-            amt=f"{mmols_created*p['transfer info']} mL"
+            amt=f"{mmols_created/p['transfer info']} mL"
         total_dict[('Products',p['name'])]={'Molecular Weight or Molarity':f'{p["transfer info"]} {p["transfer type"]}',
                                             'Amount':amt,
                                             'mmol':mmols_created}
