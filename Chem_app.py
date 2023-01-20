@@ -358,6 +358,7 @@ chem_tablayout=dbc.Container(
                   reactant_warning],
                 width=6),
          dbc.Col([product_text,
+                  dbc.Button('Tutorial Here!',href='https://youtu.be/KkIjD-xznmE'),
                   product_stoich,
                   product_name,
                   product_transfer,
@@ -398,7 +399,7 @@ Author_page=dbc.Container(
 chem_tab=dbc.Tabs([
     dbc.Tab(chem_tablayout,label='Setting Up'),
     dbc.Tab(reaction_table,label='Reaction Table',disabled=True,id='Reaction Table'),
-    dbc.Tab(Author_page,label='Meet the Author')
+    dbc.Tab(Author_page,label='Meet Me!')
 ],id='tabs')
 
 
