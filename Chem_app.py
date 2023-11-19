@@ -122,7 +122,7 @@ resume_button=html.Div([
 )
 def func(n_clicks):
     return dcc.send_file(
-        "Assets/Gordon Liang resume 13:30.pdf"
+        "Assets/Gordon Liang resume.pdf"
     )
 @app.callback(Output(component_id='sub_all',component_property='disabled'),
               Output(component_id='Disabled S Warning',component_property='children'),
