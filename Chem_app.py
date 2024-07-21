@@ -392,7 +392,7 @@ Author_page=dbc.Container(
     [dbc.Row(
         dbc.Col(html.A(children=i[0],href=i[1]))) for i in [['Insta!','https://instagram.com/gordonliangstud?igshid=MDM4ZDc5MmU='],
                        ['YouTube!','https://www.youtube.com/channel/UCAyK1M4n3BZU34hIMhUs5_A'],
-                       ['Twitter!','https://twitter.com/TalkStros']]
+                       ['Twitter!','https://x.com/AtTheBlueLine']]
 )
 ###Tabs Coming Together###
 chem_tab=dbc.Tabs([
