@@ -394,7 +394,7 @@ Author_page=dbc.Container(
                        ['YouTube!','https://www.youtube.com/channel/UCAyK1M4n3BZU34hIMhUs5_A'],
                        ['Twitter!','https://x.com/AtTheBlueLine'],
                        ['Portfolio!', 'https://www.ocf.berkeley.edu/~gordonliangstuf/'],
-                       ['At The Blue Line', 'https://the-blue-line.onrender.com/']]
+                       ['At The Blue Line', 'https://the-blue-line.onrender.com/']]]
 )
 ###Tabs Coming Together###
 chem_tab=dbc.Tabs([
