@@ -381,10 +381,10 @@ Author_page=dbc.Container(
         >**Gordon Liang**
         >
         >Hi!
-        >I'm a third-year student at UC Berkeley majoring in Molecular/Cellular Biology with
+        >I'm a recent graduate at UC Berkeley majoring in Molecular/Cellular Biology with
         >an emphasis in Genetics and Data Science with an emphasis in Business Analytics.
-        >I'm also a huge fan of baseball and my next side project will allow baseball fans
-        >to see baseball from my analytical goggles! You can download my resume (please) and follow my social media below:"""))
+        >I'm also a huge baseball and hockey fan! You can check out my hockey web app below
+        >to view contract projections of 487 NHL Players!"""))
     ),
     dbc.Row(
         dbc.Col(resume_button))
@@ -392,7 +392,9 @@ Author_page=dbc.Container(
     [dbc.Row(
         dbc.Col(html.A(children=i[0],href=i[1]))) for i in [['Insta!','https://instagram.com/gordonliangstud?igshid=MDM4ZDc5MmU='],
                        ['YouTube!','https://www.youtube.com/channel/UCAyK1M4n3BZU34hIMhUs5_A'],
-                       ['Twitter!','https://x.com/AtTheBlueLine']]
+                       ['Twitter!','https://x.com/AtTheBlueLine'],
+                       ['Portfolio!', 'https://www.ocf.berkeley.edu/~gordonliangstuf/'],
+                       ['At The Blue Line', 'https://the-blue-line.onrender.com/']]
 )
 ###Tabs Coming Together###
 chem_tab=dbc.Tabs([
